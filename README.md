@@ -1,2 +1,5 @@
-# ts-boilerplate
-Typescript + SASS
+# Typescript Boilerplate
+
+- Typescript
+- SASS
+- TypeDoc

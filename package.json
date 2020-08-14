@@ -1,0 +1,30 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/reesekimm/ts-boilerplate.git",
+  "author": "Reese Kim <reesekimm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --env=dev",
+    "prebuild": "rimraf ./dist",
+    "build": "webpack --env=prod",
+    "doc": "typedoc --out docs"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "ts-loader": "^8.0.2",
+    "ts-node": "^8.10.2",
+    "typedoc": "^0.18.0",
+    "typescript": "^4.0.0-beta",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
+  }
+}
